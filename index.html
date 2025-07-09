@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ijtimoiy Tuzoqlar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #a52a2a; 
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-color: cyan;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .main {
+      display: flex;
+      background-color: #f5e5ce; 
+      height: calc(100vh - 60px);
+      padding: 10px;
+    }
+
+    .left-column {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .card {
+      background-color: white;
+      border: 1px solid #222;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+
+    .card h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .card button {
+      padding: 8px 16px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .card button:hover {
+      background-color: #333;
+    }
+
+    .right-column {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Ijtimoiy Tuzoqlar</div>
+
+  <div class="main">
+    <div class="left-column">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+        <h3>TWITTER</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button>READ MORE</button>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        <h3>INSTAGRAM</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button>READ MORE</button>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        <h3>YOUTUBE</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <button>READ MORE</button>
+      </div>
+    </div>
+
+    <div class="right-column">
+    </div>
+  </div>
+
+</body>
+</html>
